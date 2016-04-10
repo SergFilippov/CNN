@@ -118,4 +118,3 @@ class Net:
     __fcl2_weights = tf.Variable(tf.truncated_normal([512, NUM_CLASSES],
                                                      stddev=0.1))
     __fcl2_biases = tf.Variable(tf.constant(0.1, shape=[NUM_CLASSES]))
-

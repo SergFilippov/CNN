@@ -10,7 +10,7 @@ IMAGE_SIZE = 28
 
 FLAGS = tf.app.flags.FLAGS
 tf.app.flags.DEFINE_string('image_file', 'test.png',
-                           """Absolute path to image file.""")
+                           """Path to image file.""")
 
 
 if __name__ == '__main__':
